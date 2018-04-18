@@ -217,6 +217,17 @@ img {
 			background-size: contain;
 		}
 
+		.owlCta {
+			top: 316 / 1200 * 100%;
+			left: 764 / 2048 * 100%;
+			width: 341 / 2048 * 100%;
+			height: 147 / 1200 * 100%;
+			background-image: url(owl_cta_01.png);
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
 		.grass {
 			bottom: 0;
 			left: 50%;
@@ -262,6 +273,17 @@ img {
 			height: 429 / 1200 * 100%;
 			background-image: url(fox.png);
 			background-position: center bottom;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		.foxCta {
+			bottom: 256 / 1200 * 100%;
+			left: 748 / 2048 * 100%;
+			width: 371 / 2048 * 100%;
+			height: 147 / 1200 * 100%;
+			background-image: url(fox_cta_01.png);
+			background-position: center center;
 			background-repeat: no-repeat;
 			background-size: contain;
 		}

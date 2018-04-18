@@ -70,6 +70,9 @@ function init() {
 	  .from('.shroomLeft', 1.0,  {y:'+=200',  scale:0.5, opacity:0, transformOrigin:'center bottom', ease:Expo.easeOut}, 'forestIn+=1.0')
 	  .from('.shroomRight', 1.0, {y:'+=200',  scale:0.5, opacity:0, transformOrigin:'center bottom', ease:Expo.easeOut}, 'forestIn+=0.8')
 
+	  .from('.owlCta', 0.4, {scale:0.0, opacity:0, transformOrigin:'left bottom', ease:Back.easeOut}, '-=0.5')
+	  .from('.foxCta', 0.4, {scale:0.0, opacity:0, transformOrigin:'left bottom', ease:Back.easeOut}, '-=0.2')
+
 	  //.from('.grass',      1.5,  {scale:2.0, y:'+=100', transformOrigin:'center bottom', ease:Expo.easeOut}, 'forestIn+=0.4')
 	  //.from('.fox',        1.5,  {y:'+=20', x:'+=100', opacity:0, transformOrigin:'center bottom', ease:Expo.easeOut}, 'forestIn+=0.4')
 

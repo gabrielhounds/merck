@@ -141,6 +141,17 @@ img {
   background-size: contain;
 }
 
+.forest .midground .owlCta {
+  top: 26.33333%;
+  left: 37.30469%;
+  width: 16.65039%;
+  height: 12.25%;
+  background-image: url(owl_cta_01.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .forest .midground .grass {
   bottom: 0;
   left: 50%;
@@ -189,6 +200,17 @@ img {
   height: 35.75%;
   background-image: url(fox.png);
   background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.forest .foreground .foxCta {
+  bottom: 21.33333%;
+  left: 36.52344%;
+  width: 18.11523%;
+  height: 12.25%;
+  background-image: url(fox_cta_01.png);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
 }
