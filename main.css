@@ -54,6 +54,18 @@ img {
   background-size: contain;
 }
 
+.txt3 {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36.91406%;
+  height: 8.33333%;
+  background-image: url(text3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .forest {
   top: 0;
   left: 0;
