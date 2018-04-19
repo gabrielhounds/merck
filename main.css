@@ -23,6 +23,13 @@ img {
   overflow: hidden;
 }
 
+.p_leaves {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .leaves {
   top: 0;
   left: 0;
@@ -42,6 +49,14 @@ img {
   background-size: contain;
 }
 
+@media all and (orientation: portrait) {
+  .txt1 {
+    width: 70%;
+    height: 20%;
+    background-image: url(text1_portrait.png);
+  }
+}
+
 .txt2 {
   top: 55%;
   left: 50%;
@@ -54,6 +69,13 @@ img {
   background-size: contain;
 }
 
+@media all and (orientation: portrait) {
+  .txt2 {
+    width: 60%;
+    height: 8%;
+  }
+}
+
 .txt3 {
   top: 55%;
   left: 50%;
@@ -64,6 +86,15 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  opacity: 0;
+}
+
+@media all and (orientation: portrait) {
+  .txt3 {
+    width: 60%;
+    height: 8%;
+    background-image: url(text3_portrait.png);
+  }
 }
 
 .forest {
@@ -102,6 +133,15 @@ img {
   background-size: contain;
 }
 
+@media all and (orientation: portrait) {
+  .forest .background .pineTree {
+    right: -30%;
+    bottom: 2%;
+    width: 60%;
+    height: 60%;
+  }
+}
+
 .forest .background .leftTree {
   bottom: 5%;
   left: -3.41797%;
@@ -124,6 +164,15 @@ img {
   background-size: contain;
 }
 
+@media all and (orientation: portrait) {
+  .forest .background .bush {
+    left: 0;
+    bottom: 2%;
+    width: 60%;
+    height: 60%;
+  }
+}
+
 .forest .midground {
   top: 0;
   left: 0;
@@ -142,6 +191,15 @@ img {
   background-size: contain;
 }
 
+@media all and (orientation: portrait) {
+  .forest .midground .rightTree {
+    right: -50%;
+    bottom: 2%;
+    width: 60%;
+    height: 60%;
+  }
+}
+
 .forest .midground .owlTree {
   bottom: 2%;
   left: 4.98047%;
@@ -153,15 +211,12 @@ img {
   background-size: contain;
 }
 
-.forest .midground .owlCta {
-  top: 26.33333%;
-  left: 37.30469%;
-  width: 16.65039%;
-  height: 12.25%;
-  background-image: url(owl_cta_01.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
+@media all and (orientation: portrait) {
+  .forest .midground .owlTree {
+    left: -40%;
+    width: 100%;
+    height: 120%;
+  }
 }
 
 .forest .midground .grass {
@@ -216,7 +271,53 @@ img {
   background-size: contain;
 }
 
-.forest .foreground .foxCta {
+@media all and (orientation: portrait) {
+  .forest .foreground .fox {
+    left: 50%;
+    width: 60%;
+    height: 50%;
+  }
+}
+
+.owlCta {
+  top: 26.33333%;
+  left: 37.30469%;
+  width: 16.65039%;
+  height: 12.25%;
+  background-image: url(owl_cta_01.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.owlCta.active {
+  background-image: url(owl_cta_02.png);
+}
+
+.owlCta .arrow {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(owl_cta_arrow.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+}
+
+.owlCta .arrow.active {
+  opacity: 1;
+}
+
+@media all and (orientation: portrait) {
+  .owlCta {
+    left: 45.83333%;
+    width: 45%;
+  }
+}
+
+.foxCta {
   bottom: 21.33333%;
   left: 36.52344%;
   width: 18.11523%;
@@ -225,4 +326,31 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.foxCta.active {
+  background-image: url(fox_cta_02.png);
+}
+
+.foxCta .arrow {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(fox_cta_arrow.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+}
+
+.foxCta .arrow.active {
+  opacity: 1;
+}
+
+@media all and (orientation: portrait) {
+  .foxCta {
+    left: 5.83333%;
+    width: 45%;
+  }
 }
