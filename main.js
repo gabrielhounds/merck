@@ -63,10 +63,6 @@ function init() {
 		});
 	}
 
-
-
-
-
 	tl.add('begin')
 	  .staggerFrom(topLeft,    0.9, {opacity:1, y:'-=900', x:'-=900', rotation:'+=180deg', ease:Power3.easeOut}, 0.2)
 	  .staggerFrom(topRight,   0.9, {opacity:1, y:'-=900', x:'+=900', rotation:'-=180deg', ease:Power3.easeOut}, 0.2, 'begin')
@@ -127,18 +123,6 @@ function init() {
 	  }).click( function() {
 
 	  });
-
-
-
-
-
-
-
-
-
-
-
-
 
 	//tl.seek('end');
 	tl.play();
