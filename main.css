@@ -53,7 +53,7 @@ img {
   .txt1 {
     width: 70%;
     height: 20%;
-    background-image: url(text1_portrait.png);
+    background-image: url(text1_portrait_2.png);
   }
 }
 
@@ -73,6 +73,7 @@ img {
   .txt2 {
     width: 60%;
     height: 8%;
+    background-image: url(text2_portrait_2.png);
   }
 }
 
@@ -93,7 +94,7 @@ img {
   .txt3 {
     width: 60%;
     height: 8%;
-    background-image: url(text3_portrait.png);
+    background-image: url(text3_portrait_2.png);
   }
 }
 
